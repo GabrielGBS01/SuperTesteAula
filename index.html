@@ -10,12 +10,41 @@
 <body>
     <header class="bg-primary text-white text-center py-3">
         <h1>Bem-vindo ao Meu Site</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Meu Site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Início <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <main class="container my-4">
-        <section>
-            <h2>Sobre Mim</h2>
-            <p>Este é um site básico feito com HTML, CSS e Bootstrap.</p>
+        <section id="inicio" class="mb-4">
+            <h2>Início</h2>
+            <p>Este é um site básico criado para praticar HTML, CSS e Bootstrap.</p>
+        </section>
+
+        <section id="sobre" class="mb-4">
+            <h2>Sobre</h2>
+            <p>Este site é uma demonstração de como usar Bootstrap para estilizar páginas web.</p>
+        </section>
+
+        <section id="contato" class="mb-4">
+            <h2>Contato</h2>
+            <p>Você pode entrar em contato pelo email: <a href="mailto:contato@meusite.com">contato@meusite.com</a>.</p>
         </section>
     </main>
 
@@ -23,9 +52,11 @@
         <p>&copy; <span id="year"></span> Meu Site. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
 </html>
-
