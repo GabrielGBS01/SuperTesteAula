@@ -1,55 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Básico</title>
+    <title>League of Legends - Página Oficial</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="bg-primary text-white text-center py-3">
-        <h1>Bem-vindo ao Meu Site</h1>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Meu Site</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#inicio">Início <span class="sr-only">(página atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+
+    <header class="header">
+        <div class="header-overlay">
+            <h1 class="text-center text-white py-3">League of Legends</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">LoL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#inicio">Início <span class="sr-only">(página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre o Jogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#campeoes">Campeões</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#noticias">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <main class="container my-4">
         <section id="inicio" class="mb-4">
-            <h2>Início</h2>
-            <p>Este é um site básico criado para praticar HTML, CSS e Bootstrap.</p>
+            <h2>Bem-vindo ao League of Legends</h2>
+            <p>Explore a página para saber mais sobre o jogo, seus campeões, e as últimas notícias. League of Legends é um dos jogos mais jogados do mundo, oferecendo uma experiência de jogo rica e envolvente para milhões de jogadores.</p>
         </section>
 
         <section id="sobre" class="mb-4">
-            <h2>Sobre</h2>
-            <p>Este site é uma demonstração de como usar Bootstrap para estilizar páginas web.</p>
+            <h2>Sobre o Jogo</h2>
+            <p>League of Legends (LoL) é um jogo multiplayer online de batalhas em arena (MOBA) desenvolvido e publicado pela Riot Games. Lançado em 2009, o jogo coloca duas equipes de cinco jogadores cada uma, enfrentando-se em partidas estratégicas. Cada jogador controla um campeão com habilidades únicas, trabalhando em equipe para destruir a base adversária.</p>
+            <p>O jogo é conhecido por seu cenário competitivo, e diversas ligas e torneios são realizados anualmente, atraindo a atenção de milhões de fãs ao redor do mundo. A cada temporada, novas atualizações são introduzidas para manter o jogo equilibrado e emocionante.</p>
+        </section>
+
+        <section id="campeoes" class="mb-4">
+            <h2>Campeões</h2>
+            <p>Os campeões são a base do jogo, cada um com um conjunto único de habilidades e estilos de jogo. Entre os campeões mais populares estão Ahri, uma maga com habilidades de controle e dano, e Yasuo, um espadachim ágil e veloz. Com mais de 140 campeões disponíveis, os jogadores podem encontrar aquele que se encaixa melhor em seu estilo de jogo.</p>
+            <p>Cada campeão possui uma história rica, contribuindo para o lore do jogo e sua imersão. A escolha do campeão e a sinergia entre eles podem determinar o sucesso de uma equipe durante as partidas.</p>
+        </section>
+
+        <section id="noticias" class="mb-4">
+            <h2>Notícias</h2>
+            <p>A Riot Games frequentemente atualiza o jogo com novos campeões, atualizações de balanceamento e eventos especiais. Recentemente, foi lançada uma nova atualização que inclui ajustes de balanceamento e um evento temático para celebrar o aniversário do jogo. Fique atento às nossas notícias para saber mais sobre as últimas novidades e eventos.</p>
+            <p>Os eventos especiais geralmente incluem novas skins, modos de jogo temporários e desafios que permitem aos jogadores ganhar recompensas exclusivas. Manter-se informado é essencial para aproveitar ao máximo o que o jogo tem a oferecer.</p>
         </section>
 
         <section id="contato" class="mb-4">
             <h2>Contato</h2>
-            <p>Você pode entrar em contato pelo email: <a href="mailto:contato@meusite.com">contato@meusite.com</a>.</p>
+            <p>Se você tiver alguma dúvida ou quiser entrar em contato com a equipe do League of Legends, envie um e-mail para <a href="mailto:support@leagueoflegends.com">support@leagueoflegends.com</a>. Estamos aqui para ajudar!</p>
+            <p>Além disso, você pode seguir nossas redes sociais para receber as últimas atualizações e interagir com outros jogadores.</p>
         </section>
     </main>
 
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; <span id="year"></span> Meu Site. Todos os direitos reservados.</p>
+        <p>&copy; <span id="year"></span> League of Legends. Todos os direitos reservados.</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -58,5 +83,7 @@
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+
 </body>
+
 </html>

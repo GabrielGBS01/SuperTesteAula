@@ -1,3 +1,23 @@
-body {
-    background-color: #f8f9fa;
+.header {
+    background-image: url('lol1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.header-overlay {
+    background-color: rgba(68, 68, 66, 0);
+    height: 100%;
+}
+
+.navbar {
+    background-color: #1414148f;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #ffd700;
 }
